@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:screenOrientation="portrait"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".CampaignActivity">
+
+    <Button
+        android:id="@+id/level_1"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="3dp"
+        android:background="@drawable/button_drawable_borderless"
+        android:foreground="@drawable/pixel_foreground_1_1"
+        android:textColor="@color/colorAccent_2"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toStartOf="@+id/level_2"
+        app:layout_constraintTop_toTopOf="@+id/level_2" />
+
+    <Button
+        android:id="@+id/level_2"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:textSize="36sp"
+        android:textColor="@color/colorAccent_2"
+        android:background="@drawable/button_drawable_borderless"
+        android:foreground="@drawable/pixel_foreground_1_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/level_3"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="3dp"
+        android:background="@drawable/button_drawable_borderless"
+        android:foreground="@drawable/pixel_foreground_1_1"
+        android:textColor="@color/colorAccent_2"
+        android:textSize="36sp"
+        app:layout_constraintStart_toEndOf="@+id/level_2"
+        app:layout_constraintTop_toTopOf="@+id/level_2" />
+
+    <Button
+        android:id="@+id/level_4"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="3dp"
+        android:background="@drawable/button_drawable_borderless"
+        android:foreground="@drawable/pixel_foreground_1_1"
+        android:textColor="@color/colorAccent_2"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toStartOf="@+id/level_5"
+        app:layout_constraintTop_toBottomOf="@+id/level_1" />
+
+    <Button
+        android:id="@+id/level_5"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/button_drawable_borderless"
+        android:foreground="@drawable/pixel_foreground_1_1"
+        android:textColor="@color/colorAccent_2"
+        android:textSize="36sp"
+        app:layout_constraintStart_toEndOf="@+id/level_1"
+        app:layout_constraintTop_toBottomOf="@+id/level_2" />
+
+    <Button
+        android:id="@+id/level_6"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/button_drawable_borderless"
+        android:foreground="@drawable/pixel_foreground_1_1"
+        android:textColor="@color/colorAccent_2"
+        android:textSize="36sp"
+        app:layout_constraintStart_toEndOf="@+id/level_5"
+        app:layout_constraintTop_toBottomOf="@+id/level_3" />
+
+    <Button
+        android:id="@+id/level_7"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/button_drawable_borderless"
+        android:foreground="@drawable/pixel_foreground_1_1"
+        android:textColor="@color/colorAccent_2"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="@+id/level_4"
+        app:layout_constraintTop_toBottomOf="@+id/level_4" />
+
+    <Button
+        android:id="@+id/level_8"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/button_drawable_borderless"
+        android:foreground="@drawable/pixel_foreground_1_1"
+        android:textColor="@color/colorAccent_2"
+        android:textSize="36sp"
+        app:layout_constraintStart_toEndOf="@+id/level_7"
+        app:layout_constraintTop_toBottomOf="@+id/level_5" />
+
+    <Button
+        android:id="@+id/level_9"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/button_drawable_borderless"
+        android:foreground="@drawable/pixel_foreground_1_1"
+        android:textColor="@color/colorAccent_2"
+        android:textSize="36sp"
+        app:layout_constraintStart_toEndOf="@+id/level_8"
+        app:layout_constraintTop_toBottomOf="@+id/level_6" />
+
+    <Button
+        android:id="@+id/level_10"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/button_drawable_borderless"
+        android:foreground="@drawable/pixel_foreground_1_1"
+        android:textColor="@color/colorAccent_2"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="@+id/level_7"
+        app:layout_constraintTop_toBottomOf="@+id/level_7" />
+
+    <Button
+        android:id="@+id/level_11"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/button_drawable_borderless"
+        android:foreground="@drawable/pixel_foreground_1_1"
+        android:textColor="@color/colorAccent_2"
+        android:textSize="36sp"
+        app:layout_constraintStart_toEndOf="@+id/level_10"
+        app:layout_constraintTop_toBottomOf="@+id/level_8" />
+
+    <Button
+        android:id="@+id/level_12"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/button_drawable_borderless"
+        android:foreground="@drawable/pixel_foreground_1_1"
+        android:textColor="@color/colorAccent_2"
+        android:textSize="36sp"
+        app:layout_constraintStart_toEndOf="@+id/level_11"
+        app:layout_constraintTop_toBottomOf="@+id/level_9" />
+
+    <Button
+        android:id="@+id/level_13"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/button_drawable_borderless"
+        android:foreground="@drawable/pixel_foreground_1_1"
+        android:textColor="@color/colorAccent_2"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="@+id/level_10"
+        app:layout_constraintTop_toBottomOf="@+id/level_10" />
+
+    <Button
+        android:id="@+id/level_14"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/button_drawable_borderless"
+        android:foreground="@drawable/pixel_foreground_1_1"
+        android:textColor="@color/colorAccent_2"
+        android:textSize="36sp"
+        app:layout_constraintStart_toEndOf="@+id/level_13"
+        app:layout_constraintTop_toBottomOf="@+id/level_11" />
+
+    <Button
+        android:id="@+id/level_15"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/button_drawable_borderless"
+        android:foreground="@drawable/pixel_foreground_1_1"
+        android:textColor="@color/colorAccent_2"
+        android:textSize="36sp"
+        app:layout_constraintStart_toEndOf="@+id/level_14"
+        app:layout_constraintTop_toBottomOf="@+id/level_12" />
+
+    <Button
+        android:id="@+id/level_16"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/button_drawable_borderless"
+        android:foreground="@drawable/pixel_foreground_1_1"
+        android:textColor="@color/colorAccent_2"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="@+id/level_13"
+        app:layout_constraintTop_toBottomOf="@+id/level_13" />
+
+    <Button
+        android:id="@+id/level_17"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/button_drawable_borderless"
+        android:foreground="@drawable/pixel_foreground_1_1"
+        android:textColor="@color/colorAccent_2"
+        android:textSize="36sp"
+        app:layout_constraintStart_toEndOf="@+id/level_16"
+        app:layout_constraintTop_toBottomOf="@+id/level_14" />
+
+    <Button
+        android:id="@+id/level_18"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/button_drawable_borderless"
+        android:foreground="@drawable/pixel_foreground_1_1"
+        android:textColor="@color/colorAccent_2"
+        android:textSize="36sp"
+        app:layout_constraintStart_toEndOf="@+id/level_17"
+        app:layout_constraintTop_toBottomOf="@+id/level_15" />
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

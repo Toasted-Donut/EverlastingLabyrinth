@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android studio/android projects/EverlastingLabyrinth/app/src/main/res/drawable/arrow_right_foreground.xml" value="0.27395833333333336" />
+        <entry key="..\:/Android studio/android projects/EverlastingLabyrinth/app/src/main/res/drawable/background_rounded_drawable.xml" value="0.27395833333333336" />
+        <entry key="..\:/Android studio/android projects/EverlastingLabyrinth/app/src/main/res/drawable/button_drawable.xml" value="0.1390625" />
+        <entry key="..\:/Android studio/android projects/EverlastingLabyrinth/app/src/main/res/drawable/button_drawable_borderless.xml" value="0.2703125" />
+        <entry key="..\:/Android studio/android projects/EverlastingLabyrinth/app/src/main/res/drawable/button_drawable_old.xml" value="0.27395833333333336" />
+        <entry key="..\:/Android studio/android projects/EverlastingLabyrinth/app/src/main/res/drawable/character_going_right_animation.xml" value="0.1484375" />
+        <entry key="..\:/Android studio/android projects/EverlastingLabyrinth/app/src/main/res/drawable/character_standing_animation.xml" value="0.1484375" />
+        <entry key="..\:/Android studio/android projects/EverlastingLabyrinth/app/src/main/res/layout/activity_after_level.xml" value="0.2578125" />
+        <entry key="..\:/Android studio/android projects/EverlastingLabyrinth/app/src/main/res/layout/activity_compaign.xml" value="0.13020833333333334" />
+        <entry key="..\:/Android studio/android projects/EverlastingLabyrinth/app/src/main/res/layout/activity_difficult_choose.xml" value="0.26621847886098404" />
+        <entry key="..\:/Android studio/android projects/EverlastingLabyrinth/app/src/main/res/layout/activity_level.xml" value="0.26621847886098404" />
+        <entry key="..\:/Android studio/android projects/EverlastingLabyrinth/app/src/main/res/layout/activity_main.xml" value="0.26621847886098404" />
+        <entry key="..\:/Android studio/android projects/EverlastingLabyrinth/app/src/main/res/layout/activity_setting.xml" value="0.26621847886098404" />
+        <entry key="..\:/Android studio/android projects/EverlastingLabyrinth/app/src/main/res/layout/dialog.xml" value="0.20168066580377575" />
+        <entry key="..\:/Android studio/android projects/EverlastingLabyrinth/app/src/main/res/layout/fragment_corridor.xml" value="0.13020833333333334" />
+        <entry key="..\:/Android studio/android projects/EverlastingLabyrinth/app/src/main/res/xml/root_preferences.xml" value="0.4033613316075515" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

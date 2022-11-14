@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:screenOrientation="portrait"
+    tools:context=".LevelActivity">
+
+    <Button
+        android:id="@+id/button_Up"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/button_drawable_borderless"
+        android:foreground="@drawable/arrow"
+        app:layout_constraintBottom_toTopOf="@+id/button_Exit"
+        app:layout_constraintEnd_toEndOf="@+id/button_Exit"
+        app:layout_constraintStart_toStartOf="@+id/button_Exit" />
+
+    <Button
+        android:id="@+id/button_Exit"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/button_drawable_borderless"
+        android:foreground="@drawable/pixel_foreground_1_1"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fragment2" />
+
+    <Button
+        android:id="@+id/button_Down"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/button_drawable_borderless"
+        android:foreground="@drawable/arrow"
+        android:rotation="180"
+        app:layout_constraintEnd_toEndOf="@+id/button_Exit"
+        app:layout_constraintStart_toStartOf="@+id/button_Exit"
+        app:layout_constraintTop_toBottomOf="@+id/button_Exit" />
+
+    <Button
+        android:id="@+id/button_Right"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="3dp"
+        android:background="@drawable/button_drawable_borderless"
+        android:foreground="@drawable/arrow"
+        android:foregroundTintMode="src_in"
+        android:rotation="90"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="@+id/button_Exit"
+        app:layout_constraintStart_toEndOf="@+id/button_Exit"
+        app:layout_constraintTop_toBottomOf="@+id/button_Up" />
+
+    <Button
+        android:id="@+id/button_Left"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginEnd="3dp"
+        android:background="@drawable/button_drawable_borderless"
+        android:foreground="@drawable/arrow"
+        android:rotation="270"
+        app:layout_constraintBottom_toBottomOf="@+id/button_Exit"
+        app:layout_constraintEnd_toStartOf="@+id/button_Exit"
+        app:layout_constraintTop_toBottomOf="@+id/button_Up" />
+
+    <fragment
+        android:id="@+id/fragment2"
+        android:name="com.example.everlastinglabyrinth.CorridorFragment"
+        android:layout_width="312dp"
+        android:layout_height="312dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
